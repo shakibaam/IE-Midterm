@@ -19,14 +19,24 @@
             <label for="name"> name:</label>
             <input type="text" id="name" name="name" maxlength="255"><br><br>
             <!-- radio buttons input -->
-            <input type="radio" id="male" name="gender" value="male">
-              <label for="male">Male</label><br><br>
-              <input type="radio" id="female" name="gender" value="female">
-              <label for="female">Female</label><br><br>
+            <div>
+                <input type="radio" id="male" name="gender" value="male">
+                  <label for="male">Male</label>
+            </div>
+
+             <div style="margin-top: 10px">
+                 <input type="radio" id="female" name="gender" value="female">
+                   <label for="female">Female</label>
+             </div>
+             
+
             <!--submit button-->
-            <input type="submit" value="Submit"><br>
-            <!--save button-->
-            <button id="save-btn" onclick="save()">Save</button>
+            <div>
+                <input type="submit" value="Submit"><br>
+                <!--save button-->
+                <button id="save-btn" onclick="save()">Save</button>
+            </div>
+
         </form>
 
 

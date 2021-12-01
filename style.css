@@ -8,6 +8,7 @@ body {
 
 
 }
+
 /*make the content display to flex and also add border and some margins, also flex wrap to become responsive*/
 .content {
 
@@ -34,6 +35,8 @@ body {
 /*margin for save button*/
 #save-btn {
     margin-top: 10px;
+    width: 55px;
+
 
 }
 
