@@ -1,22 +1,30 @@
 
-* {
-    box-sizing: border-box;
-}
+/** {*/
+/*    box-sizing: border-box;*/
+/*}*/
 body {
+    background-image: url("back-image.jpg");
+    background-repeat:no-repeat;
+    background-attachment:fixed;
+    background-position: left;
+    background-size: 100% 100%;
 
-    background-color: antiquewhite;
+
 }
-
 .content {
 
     border: solid 4px black;
     border-radius: 20px;
     display: flex;
-    width: 800px;
+    flex-wrap: wrap;
+    flex-direction: row;
+    max-width: 800px;
     margin: auto;
     margin-top: 150px;
 
+
 }
+
 
 .item{
     margin: 50px;
@@ -30,10 +38,11 @@ body {
 }
 
 .saved-answer {
-    visibility: hidden;
+
+    display: none;
     border: dashed 1px black;
-    width: 200px;
-    /*height: 105px;*/
+    width: 150px;
+
 
 }
 
