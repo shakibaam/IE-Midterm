@@ -1,7 +1,4 @@
-
-/** {*/
-/*    box-sizing: border-box;*/
-/*}*/
+/*add background image and add some styles to become responsive*/
 body {
     background-image: url("back-image.jpg");
     background-repeat:no-repeat;
@@ -11,6 +8,7 @@ body {
 
 
 }
+/*make the content display to flex and also add border and some margins, also flex wrap to become responsive*/
 .content {
 
     border: solid 4px black;
@@ -25,18 +23,19 @@ body {
 
 }
 
-
+/*styles for flex items*/
 .item{
     margin: 50px;
     margin-top: 20px;
     padding: 50px;
 }
-
+/*margin for save button*/
 #save-btn {
     margin-top: 10px;
 
 }
 
+/*style for saved answer div , when nothing is being saved the display is none*/
 .saved-answer {
 
     display: none;
@@ -45,7 +44,7 @@ body {
 
 
 }
-
+/*margin for clear button*/
 #clear-btn {
     margin-bottom: 5px;
 }
