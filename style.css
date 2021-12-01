@@ -1,0 +1,25 @@
+
+* {
+    box-sizing: border-box;
+}
+body {
+
+    background-color: antiquewhite;
+}
+
+.content {
+
+    border: solid 4px black;
+    border-radius: 20px;
+    display: flex;
+    width: 800px;
+    margin: auto;
+    margin-top: 150px;
+
+}
+
+.item{
+    margin: 50px;
+    margin-top: 20px;
+    padding: 50px;
+}
