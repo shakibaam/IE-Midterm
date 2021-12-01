@@ -23,3 +23,20 @@ body {
     margin-top: 20px;
     padding: 50px;
 }
+
+#save-btn {
+    margin-top: 10px;
+
+}
+
+.saved-answer {
+    visibility: hidden;
+    border: dashed 1px black;
+    width: 200px;
+    /*height: 105px;*/
+
+}
+
+#clear-btn {
+    margin-bottom: 5px;
+}

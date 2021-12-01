@@ -19,13 +19,26 @@
               <label for="male">Male</label><br><br>
               <input type="radio" id="female" name="gender" value="female">
               <label for="female">Female</label><br><br>
-            <input type="submit" value="Submit">
+            <input type="submit" value="Submit"><br>
+            <button id="save-btn" onclick="save()">Save</button>
         </form>
         
         
     </div>
     <div class="item" id="prediction">
         <h2>Prediction</h2>
+        <p id="gender-predict"></p>
+        <p id="prob-predict"></p>
+
+        <div class="saved-answer">
+
+                <h2 style="margin-left: 0px ;margin-top: 0px">Saved <br> Answer</h2>
+                <p style="margin-left: 0px" id="saved-gender"></p>
+                <button style="margin-left: 0px" id="clear-btn">Clear</button>
+
+
+        </div>
+
     </div>
 
 </div>
