@@ -8,30 +8,36 @@
 </head>
 <body>
 
+<!--content div is a flex container for all content-->
 <div class="content">
-
+    <!--first item of flex item is the div which contain the user inputs-->
     <div class="item">
         <h2>Mr. Or Ms.?</h2>
-        <form action="" id="form" onsubmit="submit_emtiyazi()">
+        <!--    this is the whole form    -->
+        <form action="" id="form" onsubmit="submit_with_emtiyazi()">
+            <!-- name input-->
             <label for="name"> name:</label>
             <input type="text" id="name" name="name" maxlength="255"><br><br>
-
+            <!-- radio buttons input -->
             <input type="radio" id="male" name="gender" value="male">
               <label for="male">Male</label><br><br>
-              <input  type="radio" id="female" name="gender" value="female">
+              <input type="radio" id="female" name="gender" value="female">
               <label for="female">Female</label><br><br>
-
+            <!--submit button-->
             <input type="submit" value="Submit"><br>
+            <!--save button-->
             <button id="save-btn" onclick="save()">Save</button>
         </form>
 
 
     </div>
+    <!--second item of flex item is the div which contain prediction info and saved info-->
     <div class="item" id="prediction">
         <h2>Prediction</h2>
+        <!--this paragraphs become full when the form submit and the predictions is done-->
         <p id="gender-predict"></p>
         <p id="prob-predict"></p>
-
+        <!--this div is contained information about saved gender-->
         <div class="saved-answer">
 
             <h2 style="margin-left: 0px ;margin-top: 0px">Saved <br> Answer</h2>
